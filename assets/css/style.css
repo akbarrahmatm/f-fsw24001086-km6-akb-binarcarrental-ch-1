@@ -67,3 +67,43 @@ img.img-car {
   top: 50px;
   left: 70px;
 }
+
+section.our-service {
+  padding: 0px 100px;
+}
+
+section.our-service .row {
+  height: 100vh;
+}
+
+img.img-service {
+  width: 80%;
+}
+
+.our-service-text h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.our-service-text p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+ul.service-item {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul.service-item li {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+span.icon-service-item {
+  margin-right: 16px;
+}
