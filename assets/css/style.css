@@ -197,3 +197,26 @@ p.testimonial-text {
   font-size: 14px;
   font-weight: lighter;
 }
+
+.banner {
+  background: #0d28a6;
+  border-radius: 13px;
+  padding: 64px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.banner-title {
+  color: white;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.banner-text {
+  color: white;
+  margin-bottom: 52px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
