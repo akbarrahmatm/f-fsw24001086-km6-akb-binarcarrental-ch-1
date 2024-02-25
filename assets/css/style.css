@@ -237,3 +237,43 @@ h2.accordion-header button {
 .faq {
   margin-bottom: 150px;
 }
+
+ul.nav-footer,
+ul.list-socmed {
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav-footer li,
+ul.list-socmed li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+ul.list-socmed li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+ul.list-socmed li a img {
+  width: 32px;
+  height: 32px;
+}
+
+ul.nav-footer li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer {
+  margin-bottom: 100px;
+}
+
+.footer p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
