@@ -295,6 +295,13 @@ ul.nav-footer li a {
     padding: 16px;
   }
 
+  img.img-car {
+    position: relative;
+    width: 120%;
+    top: 50px;
+    left: 20%;
+  }
+
   .testimonial-item {
     margin: 0px 16px;
     padding: 32px;
@@ -317,5 +324,21 @@ ul.nav-footer li a {
   }
   .why-us p.description {
     margin-bottom: 24px;
+  }
+
+  .faq h2 {
+    text-align: center;
+  }
+  .footer-item {
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  img.img-car {
+    position: relative;
+    width: 110%;
+    top: 50px;
+    left: 2%;
   }
 }
