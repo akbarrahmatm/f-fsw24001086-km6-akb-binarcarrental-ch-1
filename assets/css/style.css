@@ -289,7 +289,7 @@ ul.nav-footer li a {
   }
 }
 
-/* Mobile Only */
+/* Tablet & Mobile Only */
 @media only screen and (max-width: 992px) {
   .container {
     padding: 16px;
@@ -298,7 +298,7 @@ ul.nav-footer li a {
   img.img-car {
     position: relative;
     width: 120%;
-    top: 50px;
+    top: 70px;
     left: 20%;
   }
 
@@ -334,11 +334,13 @@ ul.nav-footer li a {
   }
 }
 
+/* Mobile Only */
+
 @media only screen and (max-width: 720px) {
   img.img-car {
     position: relative;
     width: 110%;
-    top: 50px;
+    top: 70px;
     left: 2%;
   }
 }
