@@ -281,6 +281,10 @@ ul.nav-footer li a {
   width: 100% !important;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
 /* Desktop Only */
 @media only screen and (min-width: 991px) {
   section.our-service {
@@ -341,6 +345,6 @@ ul.nav-footer li a {
     position: relative;
     width: 110%;
     top: 70px;
-    left: 2%;
+    left: 5%;
   }
 }

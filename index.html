@@ -26,39 +26,47 @@
     <section class="hero">
         <!-- Navbar -->
         <div class="navigation">
-            <nav class="navbar  navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <img src="./assets/img/svg/logo.svg" alt="Bootstrap" width="100">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <!-- Navbar Item -->
-                        <ul class="navbar-nav d-flex align-items-center ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#our-service">Our Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Why Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Testimonial</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn btn-success-custom btn-register" href="#">Register</a>
-                            </li>
-                        </ul>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
+                        aria-labelledby="offcanvasNavbar2Label">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">BCR</h5>
+                            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#our-service">Our Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#why-us">Why Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#faq">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="btn btn-success-custom btn-register" href="#">Register</a>
+                                </li>
+                            </ul>
+
+                        </div>
                     </div>
                 </div>
             </nav>
         </div>
+
         <div class="hero-content container">
             <div class="row">
                 <!-- Column Hero Text -->
@@ -869,6 +877,8 @@
         </div>
     </section>
     <!-- End of Section Testimonial -->
+
+
 
     <!-- Section CTA Banner -->
     <section class="cta-banner">
