@@ -1,7 +1,8 @@
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     loop: true,
-    margin: 20,
+    margin: 32,
+    startPosition: 2,
     dots: false,
     navText: [
       "<img class='icon-control-carousel' src='./assets/img/svg/left-button.svg' alt='Previous'>",
@@ -21,6 +22,8 @@ $(document).ready(function () {
       1300: {
         items: 3,
         nav: true,
+        center: true,
+        autoWidth: true,
       },
     },
   });

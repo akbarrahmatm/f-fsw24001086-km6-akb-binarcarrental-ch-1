@@ -163,7 +163,7 @@ section.testimonial {
 }
 
 .testimonial-item {
-  /* width: 600px; */
+  /* width: 620px; */
   background: #f1f3ff;
   border-radius: 8px;
   margin-bottom: 24px;
@@ -290,6 +290,10 @@ ul.nav-footer li a {
   section.our-service {
     margin: 100px auto;
     padding: 0px 100px;
+  }
+
+  .owl-item .item {
+    width: 620px;
   }
 }
 
