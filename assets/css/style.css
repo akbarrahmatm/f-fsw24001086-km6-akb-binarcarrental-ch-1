@@ -285,6 +285,11 @@ ul.nav-footer li a {
   border: none;
 }
 
+.navbar {
+  background-color: #f1f3ff;
+  /* backdrop-filter: blur(8px); */
+}
+
 /* Desktop Only */
 @media only screen and (min-width: 991px) {
   section.our-service {
