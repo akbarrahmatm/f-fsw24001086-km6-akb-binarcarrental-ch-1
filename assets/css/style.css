@@ -13,6 +13,14 @@ section.hero {
   padding-top: 24px;
 }
 
+.navbar {
+  padding-top: 24px;
+}
+
+.hero-content.container {
+  margin-top: 100px;
+}
+
 .navbar-nav {
   line-height: 20px;
 }
