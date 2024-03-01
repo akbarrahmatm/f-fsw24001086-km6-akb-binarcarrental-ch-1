@@ -365,4 +365,8 @@ ul.nav-footer li a {
     top: 70px;
     left: 5%;
   }
+  .navbar {
+    padding-top: 12px;
+    padding-bottom: 24px;
+  }
 }
